@@ -30,11 +30,11 @@ export default {
 </script>
 <style lang="scss">
 .search {
-  width: 400px;
+  width: auto;
   margin: 3rem auto 0;
   input {
     height: 53px;
-    width: 400px;
+    width: auto;
     border: none;
     border-radius: 10px;
     padding: 0 0.5rem;

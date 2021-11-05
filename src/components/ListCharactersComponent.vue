@@ -44,13 +44,15 @@ export default {
 
 <style lang="scss">
 .characters {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3rem;
-  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .unknown{
   margin: 50px 0px;
   font-size: 50px;
+}
+.characters__item{
+  margin: 20px;
 }
 </style>

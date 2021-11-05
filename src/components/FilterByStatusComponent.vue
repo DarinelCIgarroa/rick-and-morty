@@ -34,7 +34,7 @@ export default {
 </script>
 <style lang="scss">
 .filter {
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

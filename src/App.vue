@@ -1,10 +1,9 @@
 <template>
-  <div>
+  <div class="container">
     <h1>Rick and Morty</h1>
     <FilterByStatusComponent/>
     <FilterByNameComponent/>
     <ListCharacters />
-
   </div>
 </template>
 
@@ -40,16 +39,23 @@ body {
   background-color: var(--background-body);
   color: var(--text-white);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 50px;
+}
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 h1 {
   margin-bottom: 3rem;
   text-align: center;
 }
-.container {
-  width: 980px;
-  max-width: 90%;
-  margin: 5rem auto;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 img {
   width: 100%;
